@@ -5,6 +5,12 @@ VS Code extension that performs half-width (“Hankaku”) - full-width (“Zenk
 
  Thanks to [@kazuhikoarase](https://github.com/kazuhikoarase) for a great module ([jaconv](https://github.com/kazuhikoarase/jaconv))! 🙏🙏
 
+## Installation
+- Open the `Command Palette` of VS Code with `Ctrl + P` or `Cmd + P`(MacOS)
+- And type: `ext install yokawasa.vscode-jaconv`
+
+or find at [Marketplace](https://marketplace.visualstudio.com/items?itemName=yokawasa.vscode-jaconv)
+
 ## Usage
 
 Select text that you want to convert, then execute `JaConv Commands` command from command palette.
