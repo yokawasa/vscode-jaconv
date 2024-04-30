@@ -2,7 +2,7 @@
   "name": "vscode-jaconv",
   "displayName": "vscode-jaconv",
   "description": "VS Code extension that performs half-width (“Hankaku”) - full-width (“Zenkaku”) conversion for Japanese “kana” and ascii using jaconv node.js module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "publisher": "yokawasa",
   "repository": {
@@ -28,9 +28,7 @@
     "hiragana",
     "katakana"
   ],
-  "activationEvents": [
-    "onCommand:extension.jaconv.commands"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -61,7 +59,7 @@
     "@types/node": "^10.12.21",
     "@types/vscode": "^1.36.0",
     "glob": "^7.1.4",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "typescript": "^3.3.1",
     "tslint": "^5.12.1",
     "vscode-test": "^1.0.2"
